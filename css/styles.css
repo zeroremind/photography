@@ -1,0 +1,20 @@
+/* body { overflow-y:scroll; } */
+
+.grid{
+    margin: 20px;
+}
+.gridItem, .gridSizer{
+    width: 25%;
+    /* height: 150px;; */
+    /* transition: all .5s .05s; */
+    /* margin: 0;
+    padding: 0; */
+}
+.gridItem{
+    margin: 0;
+    padding: 0;
+}
+.invis{
+    height: 0;
+    width: 0;   
+}
