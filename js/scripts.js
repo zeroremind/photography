@@ -7,21 +7,21 @@ $('.grid').masonry({
     // transitionDuraction: '.5s'
 });
 
-$('.button8').click(function(){
+$(document).ready(function(){
     $('.gridItem').hide();
-    $('.forest').show();
+    $('.conceptual').show();
+    $('.filter').removeClass('filtered')
+    $('.button8').addClass('filtered')
+});
+$('.button1').click(function(){
+    $('.gridItem').show();
     $('.filter').removeClass('filtered')
     $(this).addClass('filtered')
 });
-$('.button7').click(function(){
+
+$('.button4').click(function(){
     $('.gridItem').hide();
-    $('.architecture').show();
-    $('.filter').removeClass('filtered')
-    $(this).addClass('filtered')
-});
-$('.button6').click(function(){
-    $('.gridItem').hide();
-    $('.macro').show();
+    $('.nature').show();
     $('.filter').removeClass('filtered')
     $(this).addClass('filtered')
 });
@@ -31,21 +31,23 @@ $('.button5').click(function(){
     $('.filter').removeClass('filtered')
     $(this).addClass('filtered')
 });
-$('.button4').click(function(){
-    $('.gridItem').hide();
-    $('.nature').show();
-    $('.filter').removeClass('filtered')
-    $(this).addClass('filtered')
-});
-$('.button2').click(function(){
-    $('.gridItem').hide();
-    $('.bird').show();
-    $('.filter').removeClass('filtered')
-    $(this).addClass('filtered')
-});
-$('.button1').click(function(){
-    $('.gridItem').show();
-    $('.filter').removeClass('filtered')
-});
 
+$('.button6').click(function(){
+    $('.gridItem').hide();
+    $('.macro').show();
+    $('.filter').removeClass('filtered')
+    $(this).addClass('filtered')
+});
+$('.button7').click(function(){
+    $('.gridItem').hide();
+    $('.architecture').show();
+    $('.filter').removeClass('filtered')
+    $(this).addClass('filtered')
+});
+$('.button8').click(function(){
+    $('.gridItem').hide();
+    $('.conceptual').show();
+    $('.filter').removeClass('filtered')
+    $(this).addClass('filtered')
+});
     
