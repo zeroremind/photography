@@ -1,0 +1,8 @@
+responsive
+--mobile Menu
+
+lightbox
+
+alt tags
+
+better tagging w/ extensive menu
